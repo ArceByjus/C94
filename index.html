@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vamos a chatear</title>
+        
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+        <link rel="stylesheet" href="Kwitter.css">
+        <script src="Kwitter.js"></script>
+    </head>
+    <body>
+                    
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="dibujo.png" width="550">
+                </div>
+                <div class="col-sm-6" id="col2">
+                    <img src="Logo.png" width="150">
+                    <h1 > Vamos a chatear</h1>
+                    <br><br>
+                    <h3 id="login">Login</h3>
+                    <br>
+                    <span>
+                       <b> Nombre de usuario:  </b> &nbsp;&nbsp; <input type="text" placeholder="Nombre de usuario" id="User_name" class="form-control" > 
+                    </span>
+                    <br><br>
+                    <button onclick="inicioSesion()" id="addUser" class="btn btn-success"><b>Entrar</b></button>
+                </div>
+            </div>
+        </div>
+    </body>    
+</html>
